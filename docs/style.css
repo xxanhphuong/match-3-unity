@@ -15,10 +15,11 @@ html {
 html, body {
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
+    background-color: #23201f;
 }
 
 body {
-    background-color: black;
+    background-color: #23201f;
 
     font-family: 'Fira Code', monospace;
     font-size: 1.6rem;
@@ -43,7 +44,6 @@ body > * {
 
 #unityContainer canvas {
     display: block;
-    border: 2px solid var(--primary-text-color);
 }
 
 #load {
